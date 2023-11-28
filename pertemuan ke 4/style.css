@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid red;
+    background-color: skyblue;
+    margin-bottom: 30px;
+}
+
+header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+}
+
+main .content-left {
+    width: 30%;
+}
+
+.hero {
+    width: 250px;
+    height: 250px;
+}
+
+main h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+main p {
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+
+.cta {
+    background-color: green;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+
+.cta:hover {
+    opacity: 80%;
+}
